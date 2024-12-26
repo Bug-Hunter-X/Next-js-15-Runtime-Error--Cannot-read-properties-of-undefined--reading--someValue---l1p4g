@@ -1,0 +1,3 @@
+# Next.js 15 Runtime Error: Cannot read properties of undefined (reading 'someValue')
+
+This repository demonstrates a common runtime error in Next.js 15 applications when accessing undefined properties within page components.  The error occurs when attempting to access a property that is not defined in the component's props. This typically happens when the data fetching mechanism (e.g., `getStaticProps`, `getServerSideProps`) doesn't provide the expected data or if the data is not properly handled.
